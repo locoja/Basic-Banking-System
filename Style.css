@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://www.doughroller.net/wp-content/uploads/201…/largest-banks-in-the-world-648x364-c-default.jpg");
+  font-family: sans-serif;
+}
+
+#nav-bar {
+  background-color: #0c0c28ea;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  float: left;
+}
+
+.nav-link:hover {
+  background-color: rgb(194, 224, 126);
+}
+
+.navbar {
+  padding: 6px !important;
+}
+
+navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: center;
+}
+
+.fa-bars {
+  color: #efe5e6;
+  font-size: 30p !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*---banner section--*/
+#main {
+  text-align: center;
+  background-color: #d4dc4d;
+  color: #0e0505;
+  padding-top: 5%;
+}
+
+.container h1 img {
+  padding-bottom: 10px;
+}
+
+/*---service section---*/
+#features1 {
+  text-align: center;
+  padding: 10% 15%;
+}
+
+#features {
+  text-align: center;
+  padding: 10% 15%;
+  background-image: url('StockSnap_ZLEVSWFWZC.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.features1 h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.features h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: '';
+  background: #0c0c07;
+  height: 10px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(63px);
+}
+
+.title::after {
+  content: '';
+  background: #0c0c07;
+  height: 10px;
+  width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translatey(10px);
+}
+
+#features .btn-primary {
+  box-shadow: none;
+  padding: 10px 25px;
+  border: none;
+  align-content: center;
+  background-image: linear-gradient(to right, #9cba17, #141718)
+}
+
+/* Action*/
+#action {
+  background-color: #d4dc4d;
+  padding: 4% 15%;
+  text-align: center;
+  line-height: 1.0;
+  color: rgb(18, 15, 15);
+}
+
+.main {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 10px 0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer {
+  background-color: #d4dc4d;
+  color: #070606;
+  padding: 2.5% 25%;
+  text-align: center;
+}
